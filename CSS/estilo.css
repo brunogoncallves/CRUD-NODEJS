@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgb(196, 52, 52);
+}
+
+header{
+    box-sizing: border-box;
+    background-color: rgb(214, 210, 210);
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    font-style: italic;
+}
+
+nav{
+    box-sizing: border-box;
+    background-color: rgb(27, 23, 23);
+    height: 50px;
+    padding: 10px;
+}
+
+
+img{
+    float: left;
+    height: 50px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.home{
+    font-size: 40px;
+    text-align: center;
+}
+
+a{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(235, 10, 10);
+
+}
+
+.tabela{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 800px;
+    height: auto;
+    color: white;
+    text-align: center;
+}
+
+th{
+    background-color: rgb(3, 1, 1);
+    color: white;
+}
+
+form{
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+
+.hh{
+    text-align: center;
+}
+
+.formae{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.form-group{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    flex-direction: column;
+
+}
+
+.cad, .cad2 {
+    text-align: center;
+    color: rgb(253, 253, 253);
+    font-style: italic;
+}
